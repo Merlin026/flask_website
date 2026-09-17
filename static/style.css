@@ -412,7 +412,36 @@ body {
     color: #1a1a1a;
     line-height: 1.6;
 }
+.timeline-item {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    column-gap: 25px;
+    align-items: start;
+    margin-bottom: 30px;
+}
 
+.year-badge {
+    width: 140px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.timeline-content {
+    margin: 0;
+    padding: 0;
+}
+
+.timeline-content h4 {
+    margin: 5px 0 6px 0;
+}
+
+.timeline-content p {
+    margin: 0;
+    line-height: 1.5;
+}
 /* RESUME SECTION */
 .resume-section {
     background: var(--cream-light);
