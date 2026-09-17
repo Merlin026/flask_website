@@ -79,17 +79,17 @@
 
 
             <div class="about-content">
-                <div class="about-card">
-                    <p>
-                        I am a dedicated MCA student with a BCA in Mobile Application and Cloud Computing.
-                        I love turning ideas into working apps and learning by building.
-                        I’ve worked on projects such as CastMe and PET.RA, focusing on UI, design flow, and front-end
-                        development.
-                        Currently pursuing my Master's at Rajagiri College of Social
-                        Sciences,
-                        Kalamassery.
-                    </p>
-                </div>
+<div class="about-card">
+    <p>
+        I am a dedicated MCA student with a BCA in Mobile Application and Cloud Computing.
+        I love turning ideas into working applications and learning by building.
+        I’ve worked on projects such as the Resource Booking System for RLabz (RCSS), CastMe,
+        and PET.RA, gaining experience in mobile and web development, UI/UX design,
+        backend integration, and databases.
+        Currently pursuing my Master’s at Rajagiri College of Social Sciences,
+        Kalamassery.
+    </p>
+</div>
 
                 <div class="about-image-container">
                     <img src="{{ url_for('static', filename='img/merlin7.png') }}" alt="Merlin" class="about-image">
@@ -123,7 +123,7 @@
                     <div class="year-badge">2009 - 2022</div>
                     <div class="timeline-content">
                         <h4>Don Bosco Senior Secondary School, Vaduthala</h4>
-                        <p>ISC (12th) - 83.5% | ICSE (10th) - 89.6%</p>
+                        <p>ISC (12th) - 82% | ICSE (10th) - 89.6%</p>
                     </div>
                 </div>
             </div>
@@ -133,7 +133,7 @@
                 <h3>Experience</h3>
 
                 <div class="timeline-item">
-                    <div class="year-badge">2024 - Present</div>
+                    <div class="year-badge">2023 - 2026</div>
                     <div class="timeline-content">
                         <h4>PET.RA - Academic Startup Collaboration</h4>
                         <p>Worked on UI mockups, app flow, and feature planning for the PET.RA platform, and assisted
@@ -237,46 +237,77 @@
         </section>
 
         <!-- PROJECTS -->
-        <section id="projects" class="section">
-            <h2>Projects</h2>
+<section id="projects" class="section">
+    <h2>Projects</h2>
 
-            <div class="book-timeline">
-                <div class="book-page">
-                    <div class="page-left">
-                        <h3>CastMe App</h3>
-                    </div>
-                    <div class="dotted-line"></div>
-                    <div class="page-right">
-                        <p><strong>Dart (Flutter), PHP, CSS, MySQL</strong><br>
-                            Casting platform connecting artists and directors with comprehensive features for auditions
-                            and talent management.</p>
-                    </div>
-                </div>
+    <div class="book-timeline">
 
-                <div class="book-page">
-                    <div class="page-left">
-                        <h3>Art Gallery Website</h3>
-                    </div>
-                    <div class="dotted-line"></div>
-                    <div class="page-right">
-                        <p><strong>PHP, MySQL, HTML</strong><br>
-                            Online gallery with CRUD features for managing and displaying artwork collections.</p>
-                    </div>
-                </div>
-
-                <div class="book-page">
-                    <div class="page-left">
-                        <h3>Mini Flutter Apps</h3>
-                    </div>
-                    <div class="dotted-line"></div>
-                    <div class="page-right">
-                        <p><strong>Flutter</strong><br>
-                            News, weather, and phonebook apps focusing on UI and API use, demonstrating mobile
-                            development skills.</p>
-                    </div>
-                </div>
+        <!-- RLABZ RESOURCE BOOKING SYSTEM -->
+        <div class="book-page">
+            <div class="page-left">
+                <h3>Resource Booking System</h3>
             </div>
-        </section>
+            <div class="dotted-line"></div>
+            <div class="page-right">
+                <p>
+                    <strong>React, Django, Python</strong><br>
+                    Role-based web application developed for RLabz, RCSS to manage venue
+                    bookings with authentication, approval workflows, calendar-based
+                    scheduling, and availability management. Collaborated with a team
+                    using Git and GitHub.
+                </p>
+            </div>
+        </div>
+
+        <!-- CASTME -->
+        <div class="book-page">
+            <div class="page-left">
+                <h3>CastMe App</h3>
+            </div>
+            <div class="dotted-line"></div>
+            <div class="page-right">
+                <p>
+                    <strong>Dart (Flutter), PHP, MySQL</strong><br>
+                    Casting platform connecting actors and casting directors with
+                    comprehensive features for auditions, authentication, and talent
+                    management.
+                </p>
+            </div>
+        </div>
+
+        <!-- ART GALLERY -->
+        <div class="book-page">
+            <div class="page-left">
+                <h3>Art Gallery Website</h3>
+            </div>
+            <div class="dotted-line"></div>
+            <div class="page-right">
+                <p>
+                    <strong>PHP, MySQL, HTML, CSS</strong><br>
+                    Online gallery with CRUD features for managing and displaying
+                    artwork collections.
+                </p>
+            </div>
+        </div>
+
+        <!-- MINI FLUTTER APPS -->
+        <div class="book-page">
+            <div class="page-left">
+                <h3>Mini Flutter Apps</h3>
+            </div>
+            <div class="dotted-line"></div>
+            <div class="page-right">
+                <p>
+                    <strong>Flutter, Dart, APIs</strong><br>
+                    News, weather, and phonebook applications focusing on UI development
+                    and API integration, demonstrating mobile application development
+                    skills.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
 
         <!-- LANGUAGES -->
         <section id="languages" class="section">
@@ -305,7 +336,11 @@
                     <li>Workshop on Emerging Technologies</li>
                     <li>Workshop on Website Designing</li>
                 </ul>
-
+                <h4 style="margin-top: 20px; margin-bottom: 12px; font-weight: 700;">Achievements</h4>
+                <ul style="margin-left: 20px; line-height: 1.8;">
+                    <li>Secured 1st place in Code Relay Competition at Laksh Fest, Nirmala Institutions</li>
+                    <li>Winner, Kaladhaara 2025 Painting Competition</li>
+                </ul>
                 <h4 style="margin-top: 20px; margin-bottom: 12px; font-weight: 700;">Volunteering</h4>
                 <ul style="margin-left: 20px; line-height: 1.8;">
                     <li>Revive Kochi project</li>
@@ -320,19 +355,15 @@
 
             <div class="hobbies-grid">
                 <div class="hobby-card">
-                    <div class="hobby-icon">💻</div>
                     <h4>Coding</h4>
                 </div>
                 <div class="hobby-card">
-                    <div class="hobby-icon">🎨</div>
                     <h4>Art & Design</h4>
                 </div>
                 <div class="hobby-card">
-                    <div class="hobby-icon">📱</div>
                     <h4>App Dev</h4>
                 </div>
                 <div class="hobby-card">
-                    <div class="hobby-icon">📚</div>
                     <h4>Reading</h4>
                 </div>
             </div>
@@ -343,12 +374,12 @@
             <h2>Contact</h2>
 
             <div class="contact-card">
-                <p><strong>📩 Email:</strong> <a href="mailto:merlinfathima88@gmail.com">merlinfathima88@gmail.com</a>
+                <p><strong>📩 Email:</strong> <a href="mailto:merlinxavier004@gmail.com">merlinxavier004@gmail.com</a>
                 </p>
 
                 <p><strong>📍 Location:</strong> Kochi, Kerala</p>
-                <p><strong>💻 GitHub:</strong> <a href="https://github.com/Merlin26022004"
-                        target="_blank">github.com/Merlin26022004</a></p>
+                <p><strong>💻 GitHub:</strong> <a href="https://github.com/Merlin026"
+                        target="_blank">github.com/Merlin026</a></p>
                 <p><strong>🔗 LinkedIn:</strong> <a href="https://www.linkedin.com/in/merlin-xavier-34933a2b3"
                         target="_blank">linkedin.com/in/merlin-xavier</a></p>
             </div>
